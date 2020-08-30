@@ -1,0 +1,33 @@
+body
+{
+	background-color: #f1f1f1;
+}
+img{
+	width:400px;
+	float:left;
+	margin: 1.5%;
+	height: 400px;
+
+}
+p
+{
+	color: #00687a;
+	font-family: 'Dancing Script',cursive;
+	margin-left: 1.5%;
+	font-size: 50px;
+	font-weight: 1000 ;
+	text-transform: uppercase;
+	border-bottom: 2px solid #3f4240;
+	width: 30%;
+	padding-bottom: 20px;
+}
+.gallery img
+{
+  transition: 1s;
+  
+}
+.gallery img:hover
+{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
